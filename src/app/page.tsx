@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Vortex } from "./components/herosection/hero";
 import { RetroGrid } from "./components/grid/grid";
 import { TextGenerateEffect } from "./components/textgen/text";
 import { LayoutGrid } from "./components/layout/comp";
