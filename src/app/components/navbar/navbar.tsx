@@ -4,7 +4,7 @@
  * Mobile navbar is better positioned at bottom right.
  **/
 'use client'
-import { cn } from "./utils";
+import { cn } from "../utils";
 import { IconLayoutNavbarCollapse } from "@tabler/icons-react";
 import {
   AnimatePresence,

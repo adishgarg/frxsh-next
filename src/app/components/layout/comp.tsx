@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, JSX } from "react";
 import { motion } from "framer-motion";
-import { cn } from "./utils";
+import { cn } from "../utils";
 
 type Card = {
   id: number;

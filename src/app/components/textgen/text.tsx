@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
-import { cn } from "./utils";
+import { cn } from "../utils";
 
 export const TextGenerateEffect = ({
   words,
@@ -37,7 +37,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className="dark:text-white text-black opacity-0"
+              className="dark:text-white text-black opacity-0 text-6xl"
               style={{
                 filter: filter ? "blur(10px)" : "none",
               }}
