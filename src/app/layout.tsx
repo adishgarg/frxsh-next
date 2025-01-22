@@ -5,7 +5,6 @@ import {
   IconUserFilled,
   IconBuildingStore,
   IconHome,
-  IconTerminal2,
 } from "@tabler/icons-react";
 
 export const metadata: Metadata = {
